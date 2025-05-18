@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Portfolio Tracker</string>
+
+    <string name="app_logo_description">Application Logo</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="forgot_password_link">Forgot Password?</string>
+
+    <string name="dashboard_title">Dashboard</string>
+    <string name="progress_overview">Progress Overview</string>
+    <string name="resume_status_placeholder">Resume Status: --%</string>
+    <string name="upcoming_deadlines">Upcoming Deadlines</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_portfolio">Portfolıo</string>
+    <string name="action_suggestions">Suggest</string>
+
+    <string name="search_internships_hint">Search internships...</string>
+    <string name="filter_tech">Tech</string>
+    <string name="filter_design">Design</string>
+    <string name="filter_remote">Remote</string>
+    <string name="refresh_button_description">Refresh internship list</string>
+    <string name="company_logo_desc">Company Logo</string>
+    <string name="bookmark_action_desc">Bookmark internship</string>
+
+    <string name="drag_drop_hint">Tap here to upload files (PDF, PNG, JPG)</string> <string name="share_portfolio_button">Share</string>
+    <string name="upload_file_button">Upload</string>
+    <string name="portfolio_item_desc">Portfolio item thumbnail</string>
+
+    <string name="ai_career_suggestions_title">AI Career Suggestions</string>
+    <string name="skill_gaps_label">Skills to Develop:</string>
+    <string name="add_portfolio_item">Add portfolio item</string>
+    <string name="your_portfolio_is_empty_tap_the_to_add_items">Your portfolio is empty. Tap the \'+\' to add items.</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="share_portfolio">Share Portfolio</string>
+    <string name="no_internships_found_matching_your_criteria">No internships found matching your criteria.</string>
+    <string name="refresh_suggestions">Refresh Suggestions</string>
+    <string name="general_advice">General Advice</string>
+    <string name="potential_skill_gaps">Potential Skill Gaps</string>
+    <string name="suggested_careers">Suggested Careers</string>
+    <string name="get_ai_suggestions">Get AI Suggestions</string>
+    <string name="your_career_goals_optional">Your Career Goals (Optional)</string>
+    <string name="your_skills_e_g_python_sql_communication">Your Skills (e.g., Python, SQL, Communication)</string>
+    <string name="your_interests_e_g_ai_web_dev">Your Interests (e.g., AI, Web Dev)</string>
+
+</resources>

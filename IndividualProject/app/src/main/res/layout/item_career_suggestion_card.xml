@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="careerItem"
+            type="com.example.individualproject.SuggestedCareerItem" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewCareerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{careerItem.careerName}"
+                tools:text="Data Scientist"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewMatchPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{String.valueOf(careerItem.matchPercentage) + "% Match"}'
+                tools:text="85% Match"
+                android:layout_marginTop="4dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                android:textColor="?attr/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/textViewCareerReasoning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{careerItem.reasoning}"
+                tools:text="Your strong analytical skills and experience with Python make you a good candidate for this role. Consider learning more about machine learning frameworks."
+                android:layout_marginTop="8dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

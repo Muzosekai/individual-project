@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.IndividualProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar"> <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryVariant">@color/app_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item> <item name="colorSecondary">@color/app_accent</item>
+        <item name="colorOnSecondary">@color/black</item> <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="colorSurface">@color/card_background</item> <item name="colorOnSurface">@color/text_primary</item> </style>
+
+    <style name="Theme.IndividualProject.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.IndividualProject.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="Theme.IndividualProject.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+</resources>

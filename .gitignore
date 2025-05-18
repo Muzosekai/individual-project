@@ -1,0 +1,38 @@
+# --- Sensitive Files ---
+# Ignore the environment file containing the OpenAI API Key
+db.env
+**/db.env  # If it might be in a subdirectory like Flask_Server/db.env
+
+# --- Python Flask Specific ---
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+instance/ # Common for Flask instance folders
+
+# --- Android Studio Specific ---
+# Build files
+.gradle/
+build/
+app/build/
+
+# Local configuration files (sensitive or user-specific)
+local.properties
+*.iml
+.idea/ # IntelliJ/Android Studio project files (can be user-specific)
+# Add .DS_Store for macOS users if needed
+.DS_Store
+
+# Compiled application files
+*.apk
+*.aab
+
+# --- Database Specific (if you have any local DB files not for sharing) ---
+# Example: local SQLite database files if any were generated and not for repo
+# *.sqlite
+# *.sqlite3
+
+# --- General ---
+# OS generated files
+.DS_Store
+Thumbs.db
